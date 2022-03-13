@@ -17,7 +17,7 @@ Users should be able to:
 - See the hover state of images
 
 ### Screenshot!
-[desktop-design](https://user-images.githubusercontent.com/72313013/158084504-2ce65de8-007a-45f1-828a-701f06408406.jpg)
+![desktop-design](https://user-images.githubusercontent.com/72313013/158084541-d147844b-623d-4953-9022-cf0dceb7b5d2.jpg)
 
 ### Links
 - Solution URL: https://github.com/NhanPhamTrong/Insure-Landing-Page.git
