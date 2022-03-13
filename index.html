@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- FavIcon and Title -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Insure landing page</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Feel free to remove these styles or customize in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="container">
+        <a class="brand" href="#" aria-label="Brand"></a>
+        <button class="menu-toggler" type="button" onclick="OpenMenu()" aria-label="Menu toggler"></button>
+      </div>
+      <ul id="menu">
+        <li class="menu-item">
+          <a href="#">How we work</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Blog</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">Account</a>
+        </li>
+        <li class="menu-item">
+          <a href="#">View plans</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div id="heading">
+      <div class="heading-pattern-1"></div>
+      <div class="heading-pattern-2"></div>
+      <div class="heading-container">
+        <img src="./images/image-intro-mobile.jpg" alt="Hero image">
+        <div class="container">
+          <div class="heading-text">
+            <hr>
+            <h1>Humanizing your insurance.</h1>
+            <p>Get your life insurance coverage easier and faster. We blend our expertise 
+              and technology to help you find the plan that's right for you. Ensure you 
+              and your loved ones are protected.</p>
+            <button type="button" aria-label="View plans button">View plans</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="description">
+      <div class="container">
+        <hr>
+        <h1>We're different</h1>
+        <div class="description-item">
+          <h2>Snappy Process</h2>
+          <p>Our application process can be completed in minutes, not hours. Don't get 
+            stuck filling in tedious forms.</p>
+        </div>
+        <div class="description-item">
+          <h2>Affordable Prices</h2>
+          <p>We don't want you worrying about high monthly costs. Our prices may be low, 
+            but we still offer the best coverage possible.</p>
+        </div>
+        <div class="description-item">
+          <h2>People First</h2>
+          <p>Our plans aren't full of conditions and clauses to prevent payouts. We make 
+            sure you're covered when you need it.</p>
+        </div>
+      </div>
+    </div>
+    <div id="how-we-work">
+      <div class="container">
+        <h3>Find out more about how we work</h3>
+        <button type="button" aria-label="How we work">How we work</button>
+      </div>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="container">
+      <a class="brand" href="#" aria-label="Brand"></a>
+      <div class="social-media">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-square"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" aria-label="Interest"><i class="fa-brands fa-pinterest"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <hr>
+      <div class="more-info">
+        <div>
+          <h4>Our company</h4>
+          <ul>
+            <li>
+              <a href="#">How we work</a>
+            </li>
+            <li>
+              <a href="#">Why Insure</a>
+            </li>
+            <li>
+              <a href="#">Check price</a>
+            </li>
+            <li>
+              <a href="#">Review</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Help me</h4>
+          <ul>
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+            <li>
+              <a href="#">Term of use</a>
+            </li>
+            <li>
+              <a href="#">Privacy policy</a>
+            </li>
+            <li>
+              <a href="#">Cookies</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <a href="#">Sales</a>
+            </li>
+            <li>
+              <a href="#">Support</a>
+            </li>
+            <li>
+              <a href="#">Live chat</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Others</h4>
+          <ul>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">Press</a>
+            </li>
+            <li>
+              <a href="#">Licenses</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>

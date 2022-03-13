@@ -1,0 +1,109 @@
+footer {
+    background: $footer-background url("../images/bg-pattern-footer-mobile.svg") no-repeat top left;
+
+    .container {
+        padding-top: 85px;
+        display: grid;
+        place-items: center;
+
+        .brand {
+            height: 20px;
+            width: 115px;
+            background: url("../images/logo.svg") no-repeat center;
+            background-size: contain;
+        }
+
+        .social-media {
+            margin: 32px 0;
+            
+            a {
+                margin: 0 8px;
+                color: $word-color-4;
+                font-size: 1.5rem;
+            }
+
+            a:hover {
+                color: $word-color-3;
+            }
+        }
+
+        hr {
+            width: 100%;
+        }
+
+        .more-info {
+            text-align: center;
+
+            div {
+                margin-top: 45px;
+                text-transform: uppercase;
+
+                h4 {
+                    margin-bottom: 40px;
+                    color: $word-color-4;
+                }
+
+                ul {
+                    li {
+                        a {
+                            color: $word-color-3;
+                            line-height: 1.5rem;
+                        }
+
+                        a:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+
+            a {
+                color: hsl(228, 45%, 44%);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    footer {
+        background: $footer-background url("../images/bg-pattern-footer-desktop.svg") no-repeat top left;
+
+        .container {
+            .brand {
+                grid-column: 1;
+                grid-row: 1;
+                justify-self: left;
+            }
+
+            .social-media {
+                grid-column: 4;
+                grid-row: 1;
+                justify-self: right;
+            }
+
+            hr {
+                grid-column: 1/5;
+                grid-row: 2;
+            }
+
+            .more-info {
+                grid-column: 1/5;
+                grid-row: 3;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                text-align: left;
+            }
+
+            .attribution {
+                grid-column: 1/5;
+                grid-row: 4;
+            }
+        }
+    }
+}
