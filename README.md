@@ -16,8 +16,8 @@ Users should be able to:
 - View the optimal layout for the component depending on thier device's screen size
 - See the hover state of images
 
-### Screenshot
-![desktop-design](https://user-images.githubusercontent.com/72313013/157628542-17692e3c-4ea5-4751-b78e-e71e9386c807.jpg)
+### Screenshot!
+[desktop-design](https://user-images.githubusercontent.com/72313013/158084504-2ce65de8-007a-45f1-828a-701f06408406.jpg)
 
 ### Links
 - Solution URL: https://github.com/NhanPhamTrong/Insure-Landing-Page.git
